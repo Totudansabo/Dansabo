@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Salisu Shamsuddeen | Executive Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed-variant": "#574500",
+                    "tertiary": "#211400",
+                    "surface-container-high": "#e7e8e9",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-fixed": "#d7e2ff",
+                    "surface-container-highest": "#e1e3e4",
+                    "error": "#ba1a1a",
+                    "surface-container-low": "#f3f4f5",
+                    "primary-fixed-dim": "#b6c7eb",
+                    "on-tertiary-container": "#ad8d5b",
+                    "tertiary-container": "#3c2700",
+                    "surface-tint": "#4e5f7e",
+                    "background": "#f8f9fa",
+                    "on-surface": "#191c1d",
+                    "on-tertiary-fixed": "#281900",
+                    "secondary-fixed-dim": "#e9c349",
+                    "outline-variant": "#c5c6ce",
+                    "on-primary-container": "#8293b5",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed-variant": "#5b4217",
+                    "on-secondary-container": "#745c00",
+                    "on-surface-variant": "#44474d",
+                    "inverse-primary": "#b6c7eb",
+                    "on-primary-fixed-variant": "#374765",
+                    "primary": "#031632",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "secondary": "#735c00",
+                    "error-container": "#ffdad6",
+                    "surface-dim": "#d9dadb",
+                    "surface-variant": "#e1e3e4",
+                    "inverse-on-surface": "#f0f1f2",
+                    "surface-container": "#edeeef",
+                    "surface-bright": "#f8f9fa",
+                    "on-background": "#191c1d",
+                    "secondary-fixed": "#ffe088",
+                    "inverse-surface": "#2e3132",
+                    "secondary-container": "#fed65b",
+                    "tertiary-fixed": "#ffdead",
+                    "on-error-container": "#93000a",
+                    "outline": "#75777e",
+                    "primary-container": "#1a2b48",
+                    "tertiary-fixed-dim": "#e5c18a",
+                    "on-secondary-fixed": "#241a00",
+                    "on-error": "#ffffff",
+                    "on-primary-fixed": "#081b38",
+                    "surface": "#f8f9fa"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "section-gap-mobile": "64px",
+                    "container-max": "1200px",
+                    "gutter": "24px",
+                    "base": "8px",
+                    "section-gap-desktop": "120px"
+            },
+            "fontFamily": {
+                    "display-lg-mobile": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "headline-md-mobile": ["Inter"],
+                    "label-caps": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "display-lg": ["Inter"],
+                    "body-sm": ["Inter"]
+            },
+            "fontSize": {
+                    "display-lg-mobile": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "headline-md": ["32px", {"lineHeight": "1.3", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "headline-md-mobile": ["24px", {"lineHeight": "1.3", "letterSpacing": "0", "fontWeight": "600"}],
+                    "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400"}],
+                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "letterSpacing": "0", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .text-gradient-gold {
+            background: linear-gradient(135deg, #735c00 0%, #ffe088 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+        .skill-card:hover {
+            transform: rotateY(10deg) rotateX(5deg) scale(1.02);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-lg overflow-x-hidden">
+<!-- Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-surface/10 backdrop-blur-xl border-b border-white/10 shadow-sm transition-all duration-300">
+<div class="flex justify-between items-center h-20 px-gutter max-w-container-max mx-auto">
+<a class="font-headline-md text-headline-md font-bold text-primary" href="#">Salisu Shamsuddeen</a>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-secondary font-semibold border-b-2 border-secondary font-body-lg text-body-lg" href="#">About</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-lg text-body-lg" href="#">Projects</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-lg text-body-lg" href="#">Research</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-lg text-body-lg" href="#">Blog</a>
+</div>
+<div class="flex items-center space-x-4">
+<button class="material-symbols-outlined text-primary p-2 hover:bg-surface-container rounded-full transition-colors">dark_mode</button>
+<a class="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-full font-semibold hover:opacity-90 active:scale-95 transition-all" href="#">Download CV</a>
+<button class="md:hidden material-symbols-outlined">menu</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 -z-10 bg-gradient-to-tr from-surface-container-low to-white"></div>
+<!-- Decorative subtle grid -->
+<div class="absolute inset-0 -z-10 opacity-[0.03]" style="background-image: radial-gradient(#031632 0.5px, transparent 0.5px); background-size: 24px 24px;"></div>
+<div class="max-w-container-max mx-auto px-gutter grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="space-y-8 order-2 md:order-1">
+<div class="space-y-4">
+<span class="inline-block px-4 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps uppercase tracking-widest">Available for Consultations</span>
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg leading-none text-primary">
+                        Salisu <br/> <span class="text-secondary">Shamsuddeen</span>
+</h1>
+<p class="font-headline-md text-headline-md-mobile md:text-headline-md text-on-surface-variant max-w-xl">
+                        Project Coordinator | Research Consultant | Data &amp; Field Operations Specialist | IT Professional
+                    </p>
+</div>
+<div class="flex flex-wrap gap-4 pt-4">
+<a class="bg-primary text-on-primary px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:shadow-xl transition-all active:scale-95" href="#projects">
+                        View Portfolio
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="border-2 border-primary text-primary px-8 py-4 rounded-full font-semibold hover:bg-primary/5 transition-all active:scale-95" href="#">
+                        Download CV
+                    </a>
+<a class="flex items-center gap-2 text-primary font-semibold hover:translate-x-1 transition-transform group" href="#contact">
+                        Contact Me
+                        <span class="material-symbols-outlined group-hover:ml-1 transition-all">chat</span>
+</a>
+</div>
+</div>
+<div class="relative order-1 md:order-2 flex justify-center">
+<div class="relative w-full max-w-md aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl z-10 border-[12px] border-white">
+<img class="w-full h-full object-cover" data-alt="A professional, high-end editorial portrait of a confident male executive in his early 30s with a sharp, minimalist suit. He is standing against a soft, blurred studio background that suggests a high-tech corporate office. The lighting is sophisticated and directional, highlighting facial features with clarity. The overall color grade is cool-toned with subtle blue and gold highlights to match the premium brand identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChwjzNobk8tYCOU-CobkFpEB22elcKgpBqQht4wP7_3t2gOOpWm7yVl4jnpBchL10y3cqqiinMB3HXWnUZa_difYW1Tw_xEPVrXrHGAxRHFam9h3_mtbf50V5UgZySDVJon_hRcgilKdm_Qlu3hqjX2_GX__i5xKJgTwt2a0co6i2DeyeLSITukbKesSSCBLttpaMil4nxdehUoTsRwUtnPiNx6P8giXkZajtILcjr0HFqRT1BQSI9Ug"/>
+</div>
+<!-- Abstract blobs -->
+<div class="absolute -top-10 -right-10 w-64 h-64 bg-secondary-fixed opacity-30 blur-3xl rounded-full"></div>
+<div class="absolute -bottom-10 -left-10 w-72 h-72 bg-primary-fixed opacity-30 blur-3xl rounded-full"></div>
+</div>
+</div>
+</header>
+<!-- About Me -->
+<section class="py-section-gap-desktop bg-surface" id="about">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+<div class="md:col-span-5">
+<h2 class="font-headline-md text-headline-md text-primary sticky top-24">Driving Excellence Through Data, Technology, and Leadership.</h2>
+</div>
+<div class="md:col-span-7 space-y-6 text-on-surface-variant font-body-lg text-body-lg">
+<p>With a robust background spanning over a decade in field operations, IT consultancy, and high-impact research projects, I specialize in bridging the gap between complex data and actionable strategic insights.</p>
+<p>My journey has been defined by a commitment to precision and operational efficiency. Whether coordinating multi-million dollar regional initiatives or designing bespoke IT infrastructures for emerging markets, my focus remains on creating sustainable value through technological innovation and human-centric leadership.</p>
+<div class="pt-8 grid grid-cols-2 gap-8">
+<div>
+<span class="block text-display-lg text-secondary font-bold">10+</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Years Experience</span>
+</div>
+<div>
+<span class="block text-display-lg text-secondary font-bold">50+</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Projects Delivered</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Overview (Bento Grid) -->
+<section class="py-section-gap-desktop bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center mb-16 space-y-4">
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest">Capabilities</span>
+<h2 class="font-headline-md text-headline-md text-primary">Strategic Solutions &amp; Specializations</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Service 1 -->
+<div class="glass-card p-8 rounded-3xl hover:bg-white hover:shadow-xl transition-all duration-500 group">
+<div class="w-14 h-14 bg-primary rounded-2xl flex items-center justify-center text-on-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">hub</span>
+</div>
+<h3 class="font-headline-md text-headline-md-mobile text-primary mb-4">Project Coordination</h3>
+<p class="text-on-surface-variant mb-6">Expert management of complex field operations, team leadership, and cross-functional stakeholder alignment to ensure mission success.</p>
+<ul class="space-y-2 text-body-sm text-on-surface">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Budget Oversight</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Risk Mitigation</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Resource Allocation</li>
+</ul>
+</div>
+<!-- Service 2 -->
+<div class="glass-card p-8 rounded-3xl hover:bg-white hover:shadow-xl transition-all duration-500 group">
+<div class="w-14 h-14 bg-secondary-container rounded-2xl flex items-center justify-center text-on-secondary-container mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">analytics</span>
+</div>
+<h3 class="font-headline-md text-headline-md-mobile text-primary mb-4">Research &amp; Data</h3>
+<p class="text-on-surface-variant mb-6">Quantitative and qualitative data collection, rigorous cleaning, and advanced analytical modelling to reveal underlying patterns.</p>
+<ul class="space-y-2 text-body-sm text-on-surface">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Survey Design</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Field Supervision</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Statistical Analysis</li>
+</ul>
+</div>
+<!-- Service 3 -->
+<div class="glass-card p-8 rounded-3xl hover:bg-white hover:shadow-xl transition-all duration-500 group">
+<div class="w-14 h-14 bg-primary-container rounded-2xl flex items-center justify-center text-on-primary-container mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<h3 class="font-headline-md text-headline-md-mobile text-primary mb-4">IT Infrastructure</h3>
+<p class="text-on-surface-variant mb-6">Comprehensive IT professional services from network architecture to system security and digital transformation strategies.</p>
+<ul class="space-y-2 text-body-sm text-on-surface">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Cloud Migration</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Cybersecurity</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Help Desk Support</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Skills (Animated Cards) -->
+<section class="py-section-gap-desktop bg-primary text-on-primary relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+<div class="max-w-container-max mx-auto px-gutter relative z-10">
+<div class="flex flex-col md:flex-row justify-between items-end gap-8 mb-16">
+<div class="space-y-4">
+<span class="font-label-caps text-label-caps uppercase text-secondary-fixed tracking-widest">Toolkit</span>
+<h2 class="font-headline-md text-headline-md">Technical Proficiencies</h2>
+</div>
+<p class="text-primary-fixed max-w-sm">A blend of industry-standard software and specialized methodologies leveraged for high-stakes decision making.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 perspective-1000">
+<!-- Skill Card -->
+<div class="skill-card bg-primary-container/40 border border-white/10 p-8 rounded-2xl transition-all duration-500 hover:bg-primary-container">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-4xl mb-4">query_stats</span>
+<h4 class="font-bold text-lg mb-2">STATA / SPSS</h4>
+<p class="text-sm text-primary-fixed opacity-70">Advanced statistical modelling and dataset manipulation.</p>
+</div>
+<div class="skill-card bg-primary-container/40 border border-white/10 p-8 rounded-2xl transition-all duration-500 hover:bg-primary-container">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-4xl mb-4">psychology</span>
+<h4 class="font-bold text-lg mb-2">Operations</h4>
+<p class="text-sm text-primary-fixed opacity-70">Logistics management and regional field supervision.</p>
+</div>
+<div class="skill-card bg-primary-container/40 border border-white/10 p-8 rounded-2xl transition-all duration-500 hover:bg-primary-container">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-4xl mb-4">settings_ethernet</span>
+<h4 class="font-bold text-lg mb-2">Networking</h4>
+<p class="text-sm text-primary-fixed opacity-70">Cisco, Mikrotik and Ubiquiti network deployments.</p>
+</div>
+<div class="skill-card bg-primary-container/40 border border-white/10 p-8 rounded-2xl transition-all duration-500 hover:bg-primary-container">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-4xl mb-4">shield</span>
+<h4 class="font-bold text-lg mb-2">IT Security</h4>
+<p class="text-sm text-primary-fixed opacity-70">Enterprise-level threat assessment and protection.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Experience & Projects (Asymmetric Layout) -->
+<section class="py-section-gap-desktop bg-surface">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<!-- Experience Teaser -->
+<div class="space-y-12">
+<div class="space-y-4">
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest">Chronicle</span>
+<h2 class="font-headline-md text-headline-md text-primary">Recent Experience</h2>
+</div>
+<div class="space-y-8 relative before:content-[''] before:absolute before:left-[11px] before:top-4 before:bottom-0 before:w-px before:bg-outline-variant">
+<!-- Item 1 -->
+<div class="relative pl-12 group">
+<div class="absolute left-0 top-1.5 w-6 h-6 rounded-full border-4 border-surface bg-secondary shadow-sm group-hover:scale-125 transition-transform"></div>
+<span class="text-sm font-semibold text-secondary-fixed-variant">2021 — PRESENT</span>
+<h4 class="text-xl font-bold text-primary mt-1">Lead Field Coordinator</h4>
+<p class="text-on-surface-variant text-sm mb-2 italic">Regional Research Initiative</p>
+<p class="text-body-sm text-on-surface-variant">Overseeing end-to-end data collection lifecycle across 12 districts, managing a team of 45 field agents and ensuring 99% data accuracy.</p>
+</div>
+<!-- Item 2 -->
+<div class="relative pl-12 group">
+<div class="absolute left-0 top-1.5 w-6 h-6 rounded-full border-4 border-surface bg-outline-variant group-hover:bg-secondary transition-colors"></div>
+<span class="text-sm font-semibold text-on-surface-variant">2018 — 2021</span>
+<h4 class="text-xl font-bold text-primary mt-1">Senior IT Consultant</h4>
+<p class="text-on-surface-variant text-sm mb-2 italic">Global Tech Solutions</p>
+<p class="text-body-sm text-on-surface-variant">Spearheaded the modernization of legacy server infrastructures for 5 corporate clients, reducing downtime by 34%.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-2 text-primary font-bold hover:underline" href="#">
+                        View Full Resume <span class="material-symbols-outlined">download</span>
+</a>
+</div>
+<!-- Projects Teaser -->
+<div class="space-y-12">
+<div class="space-y-4">
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest">Impact</span>
+<h2 class="font-headline-md text-headline-md text-primary">Latest Projects</h2>
+</div>
+<div class="space-y-6">
+<!-- Project 1 -->
+<div class="group cursor-pointer">
+<div class="overflow-hidden rounded-3xl aspect-video mb-4 shadow-lg border border-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A clean, data-driven visualization dashboard on a tablet. The dashboard shows elegant charts and maps representing geographic survey data. The tablet is held by a hand in a professional setting, with a clean desk and a laptop in the soft-focus background. The aesthetic is modern, tech-focused, and premium, utilizing the brand's blue and gold color palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6mrVyvWqAFuYkeNZ5BNMvwo6ce1krIG0B31rD1y9E_jtK4aMw9rn-qHjy6dFyLaNIy6XbMOzNP0-mCzICV2d46mOtIqEw3zsE38_v8X0MXEhiNnwHmREVMWlccs3Pg0vMg7MMhDlryVM-YBS61a2_9Ae8Pe8zkF3iPkXJ-LoXKYsycfnd-8voXpklx7QHrXwQbhu5INQ1dwXbXZncoxVZE-E-GqSLkF_eJZUOqgG9pgxIuBwwYZznTA"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-xl font-bold text-primary group-hover:text-secondary transition-colors">National Census Field Ops</h4>
+<p class="text-sm text-on-surface-variant">Strategic coordination for large-scale demographic data capture.</p>
+</div>
+<span class="material-symbols-outlined text-secondary mt-1">open_in_new</span>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group cursor-pointer">
+<div class="overflow-hidden rounded-3xl aspect-video mb-4 shadow-lg border border-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A close-up shot of a modern, glowing server room with neat blue fiber optic cables and gold-tinted status lights. The image conveys high-end IT infrastructure, stability, and professional technological consulting. The perspective is from a low angle looking up the rack, emphasizing scale and technical sophistication. High-key lighting with a minimalist clean finish." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBR_SIP4jYA6PMLS8z4dlgUU99-08YbiqoIPfrLHHshM22hCd9mdxkX6B4PsJjo9FSrycccE2UaYLbpzJg796g-ZrrDhA43JkU0-a83un3fKz5pPy5B0Pm9GAbGiGGjIhZJ1A2QFMom5cKDpGIWF4W3MVTIy2I9LREeQ-WqySt1GtKUyRgnKlY-mRynze8J8k_ruYCmaKgEec2Qv29klbK8itUKfzIu2jBDMjP70kj9g3CqVzOisF7ATw"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-xl font-bold text-primary group-hover:text-secondary transition-colors">Hybrid Cloud Transformation</h4>
+<p class="text-sm text-on-surface-variant">IT migration and security hardening for multi-national NGO.</p>
+</div>
+<span class="material-symbols-outlined text-secondary mt-1">open_in_new</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer Shell -->
+<footer class="bg-primary text-on-primary w-full py-section-gap-desktop">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-base px-gutter max-w-container-max mx-auto">
+<div class="md:col-span-2 space-y-6">
+<a class="font-headline-md text-headline-md text-secondary" href="#">Salisu Shamsuddeen</a>
+<p class="text-on-primary/70 max-w-sm text-body-sm">A dedicated professional committed to delivering excellence through data-driven decisions and technical innovation across global operations.</p>
+<div class="flex space-x-6 pt-4">
+<a class="text-on-primary/70 hover:text-secondary transition-colors material-symbols-outlined" href="#">public</a>
+<a class="text-on-primary/70 hover:text-secondary transition-colors material-symbols-outlined" href="#">alternate_email</a>
+<a class="text-on-primary/70 hover:text-secondary transition-colors material-symbols-outlined" href="#">link</a>
+</div>
+</div>
+<div class="space-y-6">
+<h5 class="font-bold text-secondary-fixed">Navigation</h5>
+<ul class="space-y-4">
+<li><a class="text-on-primary/70 hover:text-secondary transition-colors text-body-sm" href="#">About Me</a></li>
+<li><a class="text-on-primary/70 hover:text-secondary transition-colors text-body-sm" href="#">Experience</a></li>
+<li><a class="text-on-primary/70 hover:text-secondary transition-colors text-body-sm" href="#">Portfolio</a></li>
+<li><a class="text-on-primary/70 hover:text-secondary transition-colors text-body-sm" href="#">Contact</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h5 class="font-bold text-secondary-fixed">Resources</h5>
+<ul class="space-y-4">
+<li><a class="text-on-primary/70 hover:text-secondary transition-colors text-body-sm" href="#">LinkedIn</a></li>
+<li><a class="text-on-primary/70 hover:text-secondary transition-colors text-body-sm" href="#">X</a></li>
+<li><a class="text-on-primary/70 hover:text-secondary transition-colors text-body-sm" href="#">WhatsApp</a></li>
+<li><a class="text-on-primary/70 hover:text-secondary transition-colors text-body-sm" href="#">Newsletter</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-gutter mt-20 pt-8 border-t border-white/10 text-center md:text-left">
+<p class="text-on-primary/50 text-body-sm">© 2024 Salisu Shamsuddeen. All rights reserved.</p>
+</div>
+</footer>
+<script>
+        // Simple scroll effect for navbar
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('py-4');
+                nav.classList.remove('h-20');
+                nav.classList.add('bg-white/90');
+            } else {
+                nav.classList.remove('py-4');
+                nav.classList.add('h-20');
+                nav.classList.remove('bg-white/90');
+            }
+        });
+
+        // Basic Reveal animation on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.glass-card, .skill-card').forEach(el => {
+            el.classList.add('opacity-0', 'translate-y-10', 'transition-all', 'duration-700');
+            observer.observe(el);
+        });
+    </script>
+</body></html>
